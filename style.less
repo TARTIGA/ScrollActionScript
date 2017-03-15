@@ -1,0 +1,23 @@
+#to_top {
+    background:@accentColor;
+    border-radius: 10em;
+    bottom: 50px;
+    color: @textPrimaryColor;
+    cursor: pointer;
+    font-size: 30px;
+    height: 50px;
+    padding: 9px;
+    text-align: center;
+    position: fixed;
+    right: -150px;
+    transition: all 0.25s ease 0s;
+    width: 50px;
+    opacity: 0.8;
+    z-index: 2;
+    &.active {
+    right: 40px;
+        }
+      &:hover {
+          opacity: 1;
+      } 
+}

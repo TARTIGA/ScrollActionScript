@@ -1,0 +1,21 @@
+#to_top {
+    background: #0d66bd;
+    border-radius: 10em;
+    bottom: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    height: 50px;
+    padding: 9px;
+    text-align: center;
+    position: fixed;
+    right: -150px;
+    transition: all 0.25s ease 0s;
+    width: 50px;
+}
+
+#to_top.active {
+    right: 40px;
+}
+
+#to_top:hover {}
